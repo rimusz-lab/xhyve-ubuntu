@@ -71,7 +71,7 @@ Now, you can `exit` the shell and finish the installation.
 ## Start your new OS
 
 ```
-sudo ./start
+sudo ./start.sh
 ```
 
 ## First steps
@@ -99,7 +99,7 @@ That's it! You don't really need to reboot, but here's what that looks like.
 ```
 jaime@xhyve:~$ sudo poweroff
 [  636.675689] reboot: System halted
-jaime@mac:~$ sudo ./start
+jaime@mac:~$ sudo ./start.sh
 ```
 
 [xhyve]: https://github.com/mist64/xhyve
