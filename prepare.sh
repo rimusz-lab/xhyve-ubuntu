@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+IFS=$'\n\t'
+
+if [ -z "$1" ]; then
+    echo "missing path to iso"
+    exit 1
+fi
+
+dd if=/dev/zero bs=2k count=1 of=tmp.iso
+dd if="$1" skip=1 bs=2k bs=2k skip=1 >> tmp.iso
+
+hdiutil attach tmp.iso
+
+mkdir -p boot
+cp "/Volumes/Ubuntu-Server 16/install/vmlinuz" boot
+cp "/Volumes/Ubuntu-Server 16/install/initrd.gz" boot
+
+hdiutil eject "/Volumes/Ubuntu-Server 16"
+rm tmp.iso
