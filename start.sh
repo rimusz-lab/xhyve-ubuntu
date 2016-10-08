@@ -19,4 +19,4 @@ xhyve \
     -l com1,stdio \
     -s 2:0,virtio-net \
     -s 4,virtio-blk,storage.img \
-    -f "kexec,boot/vmlinuz-4.4.0-21-generic,boot/initrd.img-4.4.0-21-generic,earlyprintk=serial console=ttyS0 acpi=off root=/dev/vda1 ro"
+	-f "kexec,$(ls boot/vmlinuz-*),$(ls boot/initrd.img-*),earlyprintk=serial console=ttyS0 acpi=off root=/dev/vda1 ro"
