@@ -12,6 +12,7 @@ memgb=2
 cpus=1
 
 xhyve \
+    -A \
     -c "$cpus" \
     -m "${memgb}G" \
     -s 0:0,hostbridge \

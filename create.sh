@@ -20,6 +20,7 @@ cpus=1
 dd if=/dev/zero of=storage.img bs=1G count=$storagegb
 
 xhyve \
+    -A \
     -c "$cpus" \
     -m "${memgb}G" \
     -s 0:0,hostbridge \

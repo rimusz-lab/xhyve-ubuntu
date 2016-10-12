@@ -64,6 +64,7 @@ On the host, run this.
 cd boot/
 nc 192.168.64.8 1234 > initrd.img-4.4.0-31-generic
 nc 192.168.64.8 1234 > vmlinuz-4.4.0-31-generic
+cd ../
 ```
 
 Now, you can `exit` the shell and finish the installation.
