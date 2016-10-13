@@ -16,8 +16,8 @@ xhyve \
     -c "$cpus" \
     -m "${memgb}G" \
     -l com1,stdio \
-    -s 0:0,hostbridge \
+    -s 0,hostbridge \
     -s 31,lpc \
-    -s 2:0,virtio-net \
+    -s 2,virtio-net \
     -s 4,virtio-blk,storage.img \
 	-f "kexec,$(ls boot/vmlinuz-*),$(ls boot/initrd.img-*),earlyprintk=serial console=ttyS0 root=/dev/vda1 ro"

@@ -24,9 +24,9 @@ xhyve \
     -c "$cpus" \
     -m "${memgb}G" \
     -l com1,stdio \
-    -s 0:0,hostbridge \
+    -s 0,hostbridge \
     -s 31,lpc \
-    -s 2:0,virtio-net \
+    -s 2,virtio-net \
     -s "3,ahci-cd,$1" \
     -s 4,virtio-blk,storage.img \
     -f "kexec,boot/vmlinuz,boot/initrd.gz,earlyprintk=serial console=ttyS0"
