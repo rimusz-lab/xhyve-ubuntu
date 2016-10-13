@@ -20,8 +20,7 @@ brew install xhyve
 sudo ./create.sh ~/Downloads/ubuntu-16.04.1-server-amd64.iso
 ```
 
-After booting, install Ubuntu just like you normally would. Your network
-adapter will be in bridged mode.
+After booting, install Ubuntu just like you normally would.
 
 Pro tip: Don't resize your terminal while you're going through the installer.
 
@@ -38,7 +37,7 @@ Make sure you say, "yes".
 When you get to "Installation complete", select "Go Back". Then, "Execute a
 shell".
 
-Find your current IP address. Remember, you're in bridged mode.
+Find your current IP address.
 
 ```
 /sbin/ip addr show enp0s2
