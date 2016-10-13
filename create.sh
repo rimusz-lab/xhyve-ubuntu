@@ -23,9 +23,9 @@ xhyve \
     -A \
     -c "$cpus" \
     -m "${memgb}G" \
+    -l com1,stdio \
     -s 0:0,hostbridge \
     -s 31,lpc \
-    -l com1,stdio \
     -s 2:0,virtio-net \
     -s "3,ahci-cd,$1" \
     -s 4,virtio-blk,storage.img \
