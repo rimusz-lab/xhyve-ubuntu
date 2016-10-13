@@ -23,10 +23,10 @@ xhyve \
     -A \
     -c "$cpus" \
     -m "${memgb}G" \
-    -l com1,stdio \
     -s 0,hostbridge \
-    -s 31,lpc \
     -s 2,virtio-net \
     -s "3,ahci-cd,$1" \
     -s 4,virtio-blk,storage.img \
+    -s 31,lpc \
+    -l com1,stdio \
     -f "kexec,boot/vmlinuz,boot/initrd.gz,earlyprintk=serial console=ttyS0"
