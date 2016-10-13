@@ -29,4 +29,4 @@ xhyve \
     -s 2:0,virtio-net \
     -s "3,ahci-cd,$1" \
     -s 4,virtio-blk,storage.img \
-    -f "kexec,boot/vmlinuz,boot/initrd.gz,earlyprintk=serial console=ttyS0 acpi=off"
+    -f "kexec,boot/vmlinuz,boot/initrd.gz,earlyprintk=serial console=ttyS0"
