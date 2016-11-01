@@ -11,7 +11,7 @@ fi
 memgb=2
 cpus=1
 
-xhyve \
+/usr/local/bin/xhyve \
     -A \
 	-U "$(cat uuid.xhyve)" \
     -c "$cpus" \

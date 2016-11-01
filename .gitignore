@@ -3,3 +3,4 @@ boot
 storage.img
 *.swp
 uuid.xhyve
+logs/

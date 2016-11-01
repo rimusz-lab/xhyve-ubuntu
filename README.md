@@ -106,4 +106,19 @@ jaime@xhyve:~$ sudo poweroff
 jaime@mac:~$ sudo ./start.sh
 ```
 
+## Launch Daemons
+
+```
+sudo chown root variadico.xhyve.ubuntu.plist
+sudo ln -s $(pwd)/variadico.xhyve.ubuntu.plist /Library/LaunchDaemons/
+sudo launchctl load /Library/LaunchDaemons/variadico.xhyve.ubuntu.plist
+
+# Verify status
+sudo launchctl list | grep "xhyve"
+
+# Stop
+sudo launchctl unload /Library/LaunchDaemons/variadico.xhyve.ubuntu.plist
+```
+
+
 [xhyve]: https://github.com/mist64/xhyve

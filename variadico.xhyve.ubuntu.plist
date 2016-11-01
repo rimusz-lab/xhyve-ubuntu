@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>variadico.xhyve.ubuntu</string>
+	<key>WorkingDirectory</key>
+	<string>/Users/jaime/Developer/git/xhyve-ubuntu</string>
+    <key>ProgramArguments</key>
+    <array>
+		<string>./headless.sh</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+	<key>StandardErrorPath</key>
+	<string>/Users/jaime/Developer/git/xhyve-ubuntu/logs/variadico.xhyve.ubuntu.error.log</string>
+	<key>StandardOutPath</key>
+	<string>/Users/jaime/Developer/git/xhyve-ubuntu/logs/variadico.xhyve.ubuntu.out.log</string>
+</dict>
+</plist>
