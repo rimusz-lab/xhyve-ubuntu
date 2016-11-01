@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -euo pipefail
+set -eox pipefail
 IFS=$'\n\t'
 
 if [ "$(whoami)" != "root" ]; then
@@ -13,6 +13,7 @@ cpus=1
 
 xhyve \
     -A \
+	-U "$(cat uuid.xhyve)" \
     -c "$cpus" \
     -m "${memgb}G" \
     -s 0,hostbridge \
