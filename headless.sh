@@ -19,5 +19,4 @@ xhyve \
     -s 0,hostbridge \
     -s 2,virtio-net \
     -s 4,virtio-blk,storage.img \
-    -s 31,lpc \
-	-f "kexec,$(ls boot/vmlinuz-*),$(ls boot/initrd.img-*),earlyprintk=serial console=ttyS0 root=/dev/vda1 ro"
+	-f "kexec,boot/vmlinuz-4.4.0-31-generic,boot/initrd.img-4.4.0-31-generic,root=/dev/vda1 ro"
