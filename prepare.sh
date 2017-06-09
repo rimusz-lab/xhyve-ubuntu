@@ -8,8 +8,8 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
-dd if=/dev/zero of=tmp.iso bs=2k count=1
-dd if="$1" bs=2k skip=1 >> tmp.iso
+dd if=/dev/zero of=tmp.iso bs=$[2*1024] count=1
+dd if="$1" bs=$[2*1024] skip=1 >> tmp.iso
 
 hdiutil attach tmp.iso
 
