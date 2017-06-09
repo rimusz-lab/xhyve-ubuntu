@@ -16,8 +16,10 @@ fi
 storagegb=16
 memgb=2
 cpus=1
+MB=$[1024*1024]
+GB=$[1024*$MB]
 
-dd if=/dev/zero of=storage.img bs=1G count=$storagegb
+dd if=/dev/zero of=storage.img bs=$[1*$GB] count=$storagegb
 
 xhyve \
     -A \
