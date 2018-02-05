@@ -11,11 +11,15 @@ fi
 dd if=/dev/zero of=tmp.iso bs=$[2*1024] count=1
 dd if="$1" bs=$[2*1024] skip=1 >> tmp.iso
 
-hdiutil attach tmp.iso
+diskinfo=$(hdiutil attach tmp.iso)
 
+set +e
 mkdir -p boot
-cp "/Volumes/Ubuntu-Server 16/install/vmlinuz" boot
-cp "/Volumes/Ubuntu-Server 16/install/initrd.gz" boot
+mnt=$(echo "$diskinfo" | perl -ne '/(\/Volumes.*)/ and print $1')
+cp "$mnt/install/vmlinuz" boot
+cp "$mnt/install/initrd.gz" boot
+set -e
 
-hdiutil eject "/Volumes/Ubuntu-Server 16"
+disk=$(echo "$diskinfo" |  cut -d' ' -f1)
+hdiutil eject "$disk"
 rm tmp.iso
