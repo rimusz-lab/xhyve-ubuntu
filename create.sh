@@ -19,7 +19,10 @@ cpus=1
 MB=$[1024*1024]
 GB=$[1024*$MB]
 
+#has to check if it exist do not override it or ... and has to do it once
 dd if=/dev/zero of=storage.img bs=$[1*$GB] count=$storagegb
+
+# cannot point to ~/Downloads/storage.img, or  ../ has to run this script outside???
 
 xhyve \
     -A \

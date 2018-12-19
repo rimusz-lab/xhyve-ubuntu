@@ -1,0 +1,14 @@
+BusyBox v1.22.1 (Ubuntu 1:1.22.0-15ubuntu1) built-in shell (ash)
+Enter 'help' for a list of built-in commands.
+
+~ # /sbin/ip addr show enp0s2
+2: enp0s2: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast qlen 1000
+    link/ether 6e:7d:9f:a5:49:d0 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.64.3/24 brd 192.168.64.255 scope global enp0s2
+       valid_lft forever preferred_lft forever
+    inet6 fe80::6c7d:9fff:fea5:49d0/64 scope link 
+       valid_lft forever preferred_lft forever
+~ # 
+
+# 192.168.64.3/24
+
