@@ -21,4 +21,4 @@ xhyve \
     -s 4,virtio-blk,storage.img \
     -s 31,lpc \
     -l com1,stdio \
-	-f "kexec,boot/vmlinuz-4.4.0-31-generic,boot/initrd.img-4.4.0-31-generic,earlyprintk=serial console=ttyS0 root=/dev/vda1 ro"
+	-f "kexec,boot/vmlinuz-4.4.0-131-generic,boot/initrd.img-4.4.0-131-generic,earlyprintk=serial console=ttyS0 root=/dev/vda1 ro"

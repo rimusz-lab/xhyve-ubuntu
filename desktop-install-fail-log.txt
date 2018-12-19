@@ -1,3 +1,6 @@
+Need to use sudo ...
+and not sure about 1801 but 1605 work
+
 Last login: Wed Dec 19 17:39:02 on ttys000
 TERM_PROGRAM=Apple_Terminal
 TERM=xterm-256color
@@ -87,3 +90,462 @@ kexec: failed to load kernel boot/vmlinuz
                                                                            create.sh			variadico.xhyve.ubuntu.plist
                                                     headless.sh
                                                                dndom-mbp2013:xhyve-ubuntu dndom$ dndom-mbp2013:xhyve-ubuntu dndom$ dndom-mbp2013:xhyve-ubuntu dndom$ dndom-mbp2013:xhyve-ubuntu dndom$ dndom-mbp2013:xhyve-ubuntu dndom$ dndom-mbp2013:xhyve-ubuntu dndom$ dndom-mbp2013:xhyve-ubuntu dndom$ dndom-mbp2013:xhyve-ubuntu dndom$ 
+
+
+
+
+Last login: Tue Dec 18 22:29:13 on ttys000
+TERM_PROGRAM=Apple_Terminal
+SHELL=/bin/bash
+TERM=xterm-256color
+TMPDIR=/var/folders/1f/9n7tl2sn5x91ypygv3t4hh440000gn/T/
+CONDA_SHLVL=1
+Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.Z8uKKAfIcX/Render
+CONDA_PROMPT_MODIFIER=
+TERM_PROGRAM_VERSION=404.1
+TERM_SESSION_ID=EC578A6C-7CDD-41D1-B6E1-8C3B53BDD5B9
+USER=dndom
+CONDA_EXE=/Users/dndom/anaconda3/bin/conda
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.nGOUGVOEY0/Listeners
+PATH=/Developer/NVIDIA/CUDA-10.0/bin:/Users/dndom/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public
+CONDA_PREFIX=/Users/dndom/anaconda3
+PWD=/Users/dndom
+XPC_FLAGS=0x0
+XPC_SERVICE_NAME=0
+HOME=/Users/dndom
+SHLVL=2
+CONDA_PYTHON_EXE=/Users/dndom/anaconda3/bin/python
+LOGNAME=dndom
+LC_CTYPE=UTF-8
+CONDA_DEFAULT_ENV=base
+_=/usr/bin/printenv
+dndom-mbp2013:~ dndom$ brew install --HEAD xhyve
+Updating Homebrew...
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> New Formulae
+dav1d                      gambit-scheme              interactive-rebase-tool
+dnscontrol                 goreman                    postgresql@10
+==> Updated Formulae
+cmake ✔                    gnome-latex                opam
+meson ✔                    gnupg                      open-mpi
+aircrack-ng                go                         opencoarrays
+alexjs                     go-bindata                 openfortivpn
+amazon-ecs-cli             go@1.10                    openmsx
+ammonite-repl              gobject-introspection      osmium-tool
+angle-grinder              gocryptfs                  osrm-backend
+angular-cli                godep                      packer
+ansible                    goenv                      paket
+ansifilter                 goreleaser                 pandoc-citeproc
+apache-geode               gpsbabel                   parallelstl
+arangodb                   grafana                    pdftoedn
+aws-sdk-cpp                grpc                       pdftoipe
+awslogs                    gstreamermm                petsc
+b2-tools                   gtk+3                      petsc-complex
+ballerina                  gtkmm3                     phoronix-test-suite
+basex                      gupnp-tools                phpmyadmin
+bcal                       haproxy                    phpunit
+bigloo                     healpix                    picard-tools
+binaryen                   helmfile                   pixman
+bind                       highlight                  platformio
+bitrise                    hub                        plplot
+blink1                     hyperfine                  pmd
+bundletool                 icemon                     pngquant
+cabextract                 imagemagick                poppler
+cake                       immortal                   presto
+catimg                     influxdb                   protobuf
+ceres-solver               jboss-forge                pulumi
+certbot                    jenkins                    pumba
+cfitsio                    jhipster                   qbs
+chakra                     jsonnet                    qemu
+checkbashisms              kapacitor                  qpid-proton
+chronograf                 kibana                     redis
+circleci                   kotlin                     riemann-client
+citus                      kubeless                   rke
+clblast                    kubernetes-cli             rustup-init
+clojure                    leiningen                  sbcl
+cockroach                  leptonica                  scalapack
+conan                      libassuan                  sceptre
+convox                     libatomic_ops              scipy
+cp2k                       libbi                      shfmt
+cppcheck                   libbladerf                 skinny
+create-dmg                 libdazzle                  skopeo
+curl                       libedit                    solr
+curl-openssl               libgpg-error               source-to-image
+cython                     libjwt                     spotbugs
+dasht                      libosmium                  sqlcipher
+dependency-check           libphonenumber             stellar-core
+diff-pdf                   libpng                     sundials
+dmd                        libressl                   swiftformat
+dnscrypt-wrapper           librsvg                    syncthing
+docfx                      libtins                    sysbench
+docker                     libuv                      telegraf
+docker-machine-nfs         libvirt                    terraform
+doctl                      libvmaf                    tippecanoe
+dub                        libxmlsec1                 tmuxinator-completion
+dwm                        logtalk                    tomcat
+easyengine                 lxc                        tomee-webprofile
+eigen                      macvim                     topgrade
+elasticsearch@5.6          makensis                   tox
+envconsul                  mapserver                  traefik
+erlang                     media-info                 typescript
+erlang@20                  mesa                       ubertooth
+eslint                     minio                      ucloud
+ethereum                   minio-mc                   vert.x
+exploitdb                  mint                       vim
+fauna-shell                mkvtoolnix                 vips
+firebase-cli               mosquitto                  vte3
+fluent-bit                 mruby                      weaver
+flyway                     mutt                       webpack
+fn                         mycli                      wolfssl
+fonttools                  nativefier                 wp-cli
+freetds                    nghttp2                    wtf
+frugal                     nmh                        xcodegen
+fx                         node                       xsimd
+gcab                       node-build                 xtensor
+geos                       node@10                    you-get
+git                        node@8                     youtube-dl
+git-archive-all            nuxeo                      zim
+git-standup                nwchem                     znc
+github-markdown-toc        octave                     zola
+gitlab-runner              oniguruma
+gmsh                       opa
+==> Deleted Formulae
+apple-gcc42                              gradle@2.14
+
+==> Cloning https://github.com/machyve/xhyve.git
+Cloning into '/Users/dndom/Library/Caches/Homebrew/xhyve--git'...
+==> Checking out branch master
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+==> make
+Error: An exception occurred within a child process:
+  Errno::ENOENT: No such file or directory - xhyverun.sh
+dndom-mbp2013:~ dndom$ ls
+Applications			Pictures
+Creative Cloud Files		Public
+Desktop				Samsung
+Documents			anaconda3
+Downloads			j64-807-user
+Library				lc0
+Movies				leela-zero
+Music				leela-zero.zip
+NVIDIA_CUDA-10.0_Samples
+dndom-mbp2013:~ dndom$ brew install xhyve
+Updating Homebrew...
+==> Downloading https://homebrew.bintray.com/bottles/xhyve-0.2.0.high_sierra.bot
+######################################################################## 100.0%
+==> Pouring xhyve-0.2.0.high_sierra.bottle.1.tar.gz
+🍺  /usr/local/Cellar/xhyve/0.2.0: 10 files, 11.2MB
+dndom-mbp2013:~ dndom$ 
+
+
+============ububtu 18
+
+sudo ./create.sh ~/Downloads/ubuntu-18.04.1-server-amd64.iso
+[    0.000000] Linux version 4.15.0-29-generic (buildd@lgw01-amd64-057) (gcc version 7.3.0 (Ubuntu 7.3.0-16ubuntu3)) #31-Ubuntu SMP Tue Jul 17 15:39:52 UTC 2018 (Ubuntu 4.15.0-29.31-generic 4.15.18)
+[    0.000000] Command line: earlyprintk=serial console=ttyS0
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+[    0.000000]   Centaur CentaurHauls
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+[    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+[    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+[    0.000000] e820: BIOS-provided physical RAM map:
+[    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+[    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000007fffffff] usable
+[    0.000000] bootconsole [earlyser0] enabled
+[    0.000000] ERROR: earlyprintk= earlyser already used
+[    0.000000] NX (Execute Disable) protection: active
+[    0.000000] SMBIOS 2.6 present.
+[    0.000000] DMI:  BHYVE, BIOS 1.00 03/14/2014
+[    0.000000] e820: last_pfn = 0x80000 max_arch_pfn = 0x400000000
+[    0.000000] MTRR: Disabled
+[    0.000000] x86/PAT: MTRRs disabled, skipping PAT initialization too.
+[    0.000000] CPU MTRRs all blank - virtualized system.
+[    0.000000] x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC  
+Memory KASLR using RDRAND RDTSC...
+[    0.000000] found SMP MP-table at [mem 0x000f0000-0x000f000f] mapped at [        (ptrval)]
+[    0.000000] Scanning 1 areas for low memory corruption
+[    0.000000] RAMDISK: [mem 0x0204e000-0x02fc2fff]
+[    0.000000] ACPI: Early table checksum verification disabled
+[    0.000000] ACPI: RSDP 0x00000000000F2400 000024 (v02 BHYVE )
+[    0.000000] ACPI: XSDT 0x00000000000F2480 000044 (v01 BHYVE  BVXSDT   00000001 INTL 20140828)
+[    0.000000] ACPI: APIC 0x00000000000F2500 00005A (v01 BHYVE  BVMADT   00000001 INTL 20140828)
+[    0.000000] ACPI: FACP 0x00000000000F2600 00010C (v05 BHYVE  BVFACP   00000001 INTL 20140828)
+[    0.000000] ACPI: DSDT 0x00000000000F2800 000A2D (v02 BHYVE  BVDSDT   00000001 INTL 20140828)
+[    0.000000] ACPI: FACS 0x00000000000F27C0 000040
+[    0.000000] ACPI: FACS 0x00000000000F27C0 000040
+[    0.000000] ACPI: HPET 0x00000000000F2740 000038 (v01 BHYVE  BVHPET   00000001 INTL 20140828)
+[    0.000000] ACPI: MCFG 0x00000000000F2780 00003C (v01 BHYVE  BVMCFG   00000001 INTL 20140828)
+[    0.000000] Setting APIC routing to physical flat.
+[    0.000000] No NUMA configuration found
+[    0.000000] Faking a node at [mem 0x0000000000000000-0x000000007fffffff]
+[    0.000000] NODE_DATA(0) allocated [mem 0x7ffd5000-0x7fffffff]
+[    0.000000] tsc: Using PIT calibration value
+[    0.000000] Zone ranges:
+[    0.000000]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+[    0.000000]   DMA32    [mem 0x0000000001000000-0x000000007fffffff]
+[    0.000000]   Normal   empty
+[    0.000000]   Device   empty
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+[    0.000000]   node   0: [mem 0x0000000000100000-0x000000007fffffff]
+[    0.000000] Initmem setup node 0 [mem 0x0000000000001000-0x000000007fffffff]
+[    0.000000] Reserved but unavailable: 98 pages
+[    0.000000] ACPI: PM-Timer IO Port: 0x408
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.000000] IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23
+[    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 high edge)
+[    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+[    0.000000] Using ACPI (MADT) for SMP configuration information
+[    0.000000] ACPI: HPET id: 0x80860701 base: 0xfed00000
+[    0.000000] smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+[    0.000000] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+[    0.000000] PM: Registered nosave memory: [mem 0x0009f000-0x000fffff]
+[    0.000000] e820: [mem 0x80000000-0xffffffff] available for PCI devices
+[    0.000000] Booting paravirtualized kernel on bare hardware
+[    0.000000] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+[    0.000000] random: get_random_bytes called from start_kernel+0x99/0x4fd with crng_init=0
+[    0.000000] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:1 nr_cpu_ids:1 nr_node_ids:1
+[    0.000000] percpu: Embedded 46 pages/cpu @        (ptrval) s151552 r8192 d28672 u2097152
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 515977
+[    0.000000] Policy zone: DMA32
+[    0.000000] Kernel command line: earlyprintk=serial console=ttyS0
+[    0.000000] Memory: 2019720K/2096760K available (12300K kernel code, 2470K rwdata, 4240K rodata, 2408K init, 2416K bss, 77040K reserved, 0K cma-reserved)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[    0.000000] Kernel/User page tables isolation: enabled
+[    0.000000] ftrace: allocating 39092 entries in 153 pages
+[    0.000000] Hierarchical RCU implementation.
+[    0.000000] 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=1.
+[    0.000000] 	Tasks RCU enabled.
+[    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1
+[    0.000000] NR_IRQS: 524544, nr_irqs: 256, preallocated irqs: 16
+[    0.000000] Console: colour dummy device 80x25
+[    0.000000] console [ttyS0] enabled
+[    0.000000] console [ttyS0] enabled
+[    0.000000] bootconsole [earlyser0] disabled
+[    0.000000] bootconsole [earlyser0] disabled
+[    0.000000] ACPI: Core revision 20170831
+[    0.000000] ACPI BIOS Warning (bug): Incorrect checksum in table [DSDT] - 0x00, should be 0x5D (20170831/tbprint-211)
+[    0.000000] ACPI: 1 ACPI AML tables successfully acquired and loaded
+[    0.000000] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 191126044627 ns
+[    0.000000] APIC: Switch to symmetric I/O mode setup
+[    0.000000] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+[    0.028000] tsc: PIT calibration matches PMTIMER. 2 loops
+[    0.028000] tsc: Detected 2691.773 MHz processor
+[    0.028000] Calibrating delay loop (skipped), value calculated using timer frequency.. 5383.54 BogoMIPS (lpj=10767092)
+[    0.032003] pid_max: default: 32768 minimum: 301
+[    0.032864] Security Framework initialized
+[    0.033588] Yama: becoming mindful.
+[    0.034256] AppArmor: AppArmor initialized
+[    0.040000] Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+[    0.042204] Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+[    0.044089] Mount-cache hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.045325] Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.047164] CPU: Physical Processor ID: 0
+rdmsr to register 0x140 on vcpu 0
+                                 [    0.048101] mce: CPU supports 0 MCE banks
+[    0.048862] Last level iTLB entries: 4KB 512, 2MB 8, 4MB 8
+[    0.049821] Last level dTLB entries: 4KB 512, 2MB 32, 4MB 32, 1GB 0
+[    0.052003] Spectre V2 : Mitigation: Full generic retpoline
+[    0.052975] Speculative Store Bypass: Vulnerable
+[    0.068000] Freeing SMP alternatives memory: 36K
+[    0.072000] smpboot: CPU0: Intel(R) Core(TM) i7-3740QM CPU @ 2.70GHz (family: 0x6, model: 0x3a, stepping: 0x9)
+[    0.072000] Performance Events: unsupported p6 CPU model 58 no PMU driver, software events only.
+[    0.072000] Hierarchical SRCU implementation.
+[    0.072659] NMI watchdog: Perf event create on CPU 0 failed with -2
+[    0.073781] NMI watchdog: Perf NMI watchdog permanently disabled
+[    0.074961] smp: Bringing up secondary CPUs ...
+[    0.076005] smp: Brought up 1 node, 1 CPU
+[    0.076718] smpboot: Max logical packages: 1
+[    0.077469] smpboot: Total of 1 processors activated (5383.54 BogoMIPS)
+[    0.079342] devtmpfs: initialized
+[    0.080104] x86/mm: Memory block size: 128MB
+[    0.081936] evm: security.selinux
+[    0.082699] evm: security.SMACK64
+[    0.083459] evm: security.SMACK64EXEC
+[    0.084004] evm: security.SMACK64TRANSMUTE
+[    0.084936] evm: security.SMACK64MMAP
+[    0.085787] evm: security.apparmor
+[    0.086567] evm: security.ima
+[    0.087251] evm: security.capability
+[    0.088145] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+[    0.089987] futex hash table entries: 256 (order: 2, 16384 bytes)
+[    0.091280] pinctrl core: initialized pinctrl subsystem
+[    0.092304] RTC time: 10:15:48, date: 12/19/18
+[    0.093345] NET: Registered protocol family 16
+[    0.094219] audit: initializing netlink subsys (disabled)
+[    0.096234] cpuidle: using governor ladder
+[    0.096957] cpuidle: using governor menu
+[    0.097711] ACPI FADT declares the system doesn't support PCIe ASPM, so disable it
+[    0.099025] ACPI: bus type PCI registered
+[    0.099731] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+[    0.100005] audit: type=2000 audit(1545214547.096:1): state=initialized audit_enabled=0 res=1
+[    0.101728] PCI: MMCONFIG for domain 0000 [bus 00-ff] at [mem 0xe0000000-0xefffffff] (base 0xe0000000)
+[    0.103357] PCI: not using MMCONFIG
+[    0.104005] PCI: Using configuration type 1 for base access
+[    0.106613] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+[    0.108479] ACPI: Added _OSI(Module Device)
+[    0.109246] ACPI: Added _OSI(Processor Device)
+[    0.110058] ACPI: Added _OSI(3.0 _SCP Extensions)
+[    0.112013] ACPI: Added _OSI(Processor Aggregator Device)
+[    0.113038] ACPI: Added _OSI(Linux-Dell-Video)
+[    0.114549] ACPI: Interpreter enabled
+[    0.115266] ACPI: (supports S0 S5)
+[    0.116038] ACPI: Using IOAPIC for interrupt routing
+[    0.116950] PCI: MMCONFIG for domain 0000 [bus 00-ff] at [mem 0xe0000000-0xefffffff] (base 0xe0000000)
+[    0.118651] PCI: MMCONFIG at [mem 0xe0000000-0xefffffff] reserved in ACPI motherboard resources
+[    0.120012] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[    0.123622] ACPI: PCI Root Bridge [PC00] (domain 0000 [bus 00])
+[    0.124008] acpi PNP0A03:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI]
+[    0.125431] acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+[    0.126597] acpi PNP0A03:00: host bridge window [mem 0x00000000-0xd0000fffff window] ([0x1000000000-0xd0000fffff] ignored, not CPU addressable)
+[    0.128003] acpi PNP0A03:00: host bridge window expanded to [mem 0x00000000-0xfffffffff window]; [mem 0x00000000-0xfffffffff window] ignored
+[    0.130229] PCI host bridge to bus 0000:00
+[    0.132004] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+[    0.133183] pci_bus 0000:00: root bus resource [io  0x0d00-0x1fff window]
+[    0.134384] pci_bus 0000:00: root bus resource [io  0x2000-0x209f window]
+[    0.136005] pci_bus 0000:00: root bus resource [mem 0x00000000-0xfffffffff window]
+[    0.137316] pci_bus 0000:00: root bus resource [bus 00]
+[    0.143463] ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 *5 6 7 9 10 11 12 14 15)
+[    0.144211] ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 *6 7 9 10 11 12 14 15)
+[    0.145652] ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 5 6 *7 9 10 11 12 14 15)
+[    0.148119] ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 5 6 7 9 10 11 12 14 15) *0, disabled.
+[    0.149797] ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 5 6 7 9 10 11 12 14 15) *0, disabled.
+[    0.152111] ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 5 6 7 9 10 11 12 14 15) *0, disabled.
+[    0.153672] ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 5 6 7 9 10 11 12 14 15) *0, disabled.
+[    0.155224] ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 5 6 7 9 10 11 12 14 15) *0, disabled.
+[    0.156512] SCSI subsystem initialized
+[    0.157371] vgaarb: loaded
+[    0.158029] ACPI: bus type USB registered
+[    0.158766] usbcore: registered new interface driver usbfs
+[    0.160013] usbcore: registered new interface driver hub
+[    0.160979] usbcore: registered new device driver usb
+[    0.161984] EDAC MC: Ver: 3.0.0
+[    0.162898] PCI: Using ACPI for IRQ routing
+[    0.265133] NetLabel: Initializing
+[    0.266127] NetLabel:  domain hash size = 128
+[    0.268004] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+[    0.269661] NetLabel:  unlabeled traffic allowed by default
+[    0.271382] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0, 0, 0, 0, 0
+[    0.272003] hpet0: 8 comparators, 32-bit 10.000000 MHz counter
+[    0.275124] clocksource: Switched to clocksource hpet
+[    0.299474] VFS: Disk quotas dquot_6.6.0
+[    0.300228] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    0.301873] AppArmor: AppArmor Filesystem Enabled
+[    0.302732] pnp: PnP ACPI init
+[    0.303681] system 00:00: [io  0x0220-0x0223] has been reserved
+[    0.304909] system 00:00: [io  0x0224-0x0227] has been reserved
+[    0.305946] system 00:00: [io  0x04d0-0x04d1] has been reserved
+[    0.306977] system 00:00: [io  0x0400-0x0407] has been reserved
+[    0.308035] system 00:00: [mem 0xe0000000-0xefffffff] has been reserved
+[    0.309400] pnp: PnP ACPI: found 4 devices
+[    0.316785] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+[    0.318392] pci 0000:00:02.0: BAR 6: assigned [mem 0x80000000-0x800007ff pref]
+[    0.319651] pci 0000:00:03.0: BAR 6: assigned [mem 0x80000800-0x80000fff pref]
+[    0.320161] pci 0000:00:04.0: BAR 6: assigned [mem 0x80001000-0x800017ff pref]
+[    0.322203] pci 0000:00:1f.0: BAR 6: assigned [mem 0x80001800-0x80001fff pref]
+[    0.323513] NET: Registered protocol family 2
+[    0.325236] TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+[    0.326819] TCP bind hash table entries: 16384 (order: 6, 262144 bytes)
+[    0.328323] TCP: Hash tables configured (established 16384 bind 16384)
+[    0.329970] UDP hash table entries: 1024 (order: 3, 32768 bytes)
+[    0.331179] UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes)
+[    0.332578] NET: Registered protocol family 1
+[    0.333462] pci 0000:00:1f.0: Activating ISA DMA hang workarounds
+[    0.334576] Unpacking initramfs...
+[    0.427008] Initramfs unpacking failed: uncompression error
+[    0.432189] Freeing initrd memory: 15828K
+rdmsr to register 0x34 on vcpu 0
+                                [    0.433170] Scanning for low memory corruption every 60 seconds
+[    0.434832] Initialise system trusted keyrings
+[    0.435621] Key type blacklist registered
+[    0.436448] workingset: timestamp_bits=36 max_order=19 bucket_order=0
+[    0.438552] zbud: loaded
+[    0.439388] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[    0.440607] fuse init (API version 7.26)
+[    0.442824] Key type asymmetric registered
+[    0.443548] Asymmetric key parser 'x509' registered
+[    0.444422] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 246)
+[    0.445812] io scheduler noop registered
+[    0.446507] io scheduler deadline registered
+[    0.447298] io scheduler cfq registered (default)
+[    0.448354] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+[    0.449681] ACPI: Power Button [PWRF]
+[    0.450615] virtio-pci 0000:00:02.0: virtio_pci: leaving for legacy driver
+[    0.452016] virtio-pci 0000:00:04.0: virtio_pci: leaving for legacy driver
+[    0.453412] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+[    0.476941] 00:01: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+[    0.500686] 00:02: ttyS1 at I/O 0x2f8 (irq = 3, base_baud = 115200) is a 16550A
+[    0.503326] Linux agpgart interface v0.103
+[    0.505087] loop: module loaded
+[    0.505805] libphy: Fixed MDIO Bus: probed
+[    0.506530] tun: Universal TUN/TAP device driver, 1.6
+[    0.507450] PPP generic driver version 2.4.2
+[    0.508307] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    0.509447] ehci-pci: EHCI PCI platform driver
+[    0.510236] ehci-platform: EHCI generic platform driver
+[    0.511166] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    0.512243] ohci-pci: OHCI PCI platform driver
+[    0.513160] ohci-platform: OHCI generic platform driver
+[    0.514088] uhci_hcd: USB Universal Host Controller Interface driver
+[    0.515365] i8042: PNP: No PS/2 controller found.
+[    0.516661] mousedev: PS/2 mouse device common for all mice
+[    0.518294] ACPI Error: Could not enable RealTimeClock event (20170831/evxfevnt-218)
+[    0.519671] ACPI Warning: Could not enable fixed event - RealTimeClock (4) (20170831/evxface-654)
+[    0.521936] rtc_cmos 00:03: rtc core: registered rtc_cmos as rtc0
+[    0.523170] rtc_cmos 00:03: alarms up to one day, y3k, 114 bytes nvram
+[    0.524447] i2c /dev entries driver
+[    0.525130] device-mapper: uevent: version 1.0.3
+[    0.526065] device-mapper: ioctl: 4.37.0-ioctl (2017-09-20) initialised: dm-devel@redhat.com
+[    0.527533] ledtrig-cpu: registered to indicate activity on CPUs
+[    0.528402] NET: Registered protocol family 10
+[    0.530185] Segment Routing with IPv6
+[    0.530865] NET: Registered protocol family 17
+[    0.531739] Key type dns_resolver registered
+[    0.532672] RAS: Correctable Errors collector initialized.
+[    0.533649] sched_clock: Marking stable (532536100, 0)->(614021625, -81485525)
+[    0.535135] registered taskstats version 1
+[    0.535871] Loading compiled-in X.509 certificates
+[    0.537554] Loaded X.509 cert 'Build time autogenerated kernel key: 1cc37f41791529df57507d3747a6804ab53f482b'
+[    0.539364] zswap: loaded using pool lzo/zbud
+[    0.540771] Key type big_key registered
+[    0.541510] Key type trusted registered
+[    0.542380] Key type encrypted registered
+[    0.543147] AppArmor: AppArmor sha1 policy hashing enabled
+[    0.544117] ima: No TPM chip found, activating TPM-bypass! (rc=-19)
+[    0.545296] evm: HMAC attrs: 0x1
+[    0.546180]   Magic number: 14:244:275
+[    0.546892] tty tty12: hash matches
+[    0.547512] edac mc: hash matches
+[    0.548408] rtc_cmos 00:03: setting system clock to 2018-12-19 10:15:48 UTC (1545214548)
+[    0.550060] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+[    0.551170] EDD information not available.
+[    0.554555] Freeing unused kernel memory: 2408K
+[    0.561006] Write protecting the kernel read-only data: 20480k
+[    0.562408] Freeing unused kernel memory: 2008K
+[    0.566264] Freeing unused kernel memory: 1904K
+[    0.572254] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[    0.573450] x86/mm: Checking user space page tables
+[    0.579359] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[    0.580692] Failed to execute /init (error -2)
+[    0.581489] Kernel panic - not syncing: No working init found.  Try passing init= option to kernel. See Linux Documentation/admin-guide/init.rst for guidance.
+[    0.583938] CPU: 0 PID: 1 Comm: swapper/0 Not tainted 4.15.0-29-generic #31-Ubuntu
+[    0.585245] Hardware name:  BHYVE, BIOS 1.00 03/14/2014
+[    0.586158] Call Trace:
+[    0.586603]  dump_stack+0x63/0x8b
+[    0.587263]  ? rest_init+0xa0/0xb0
+[    0.587866]  panic+0xe4/0x244
+[    0.588477]  ? putname+0x4c/0x60
+[    0.589184]  ? rest_init+0xb0/0xb0
+[    0.589901]  kernel_init+0xf0/0x110
+[    0.590540]  ret_from_fork+0x35/0x40
+[    0.591335] Kernel Offset: 0x3c200000 from 0xffffffff81000000 (relocation range: 0xffffffff80000000-0xffffffffbfffffff)
+[    0.593302] ---[ end Kernel panic - not syncing: No working init found.  Try passing init= option to kernel. See Linux Documentation/admin-guide/init.rst for guidance.
+
+

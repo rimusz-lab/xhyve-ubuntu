@@ -5,7 +5,7 @@
     <key>Label</key>
     <string>variadico.xhyve.ubuntu</string>
 	<key>WorkingDirectory</key>
-	<string>/Users/jaime/Developer/git/xhyve-ubuntu</string>
+	<string>/Users/dndom/Downloads/xhyve-ubuntu</string>
     <key>ProgramArguments</key>
     <array>
 		<string>./headless.sh</string>
@@ -13,8 +13,8 @@
     <key>RunAtLoad</key>
     <true/>
 	<key>StandardErrorPath</key>
-	<string>/Users/jaime/Developer/git/xhyve-ubuntu/logs/variadico.xhyve.ubuntu.error.log</string>
+	<string>/Users/dndom/Downloads/xhyve-ubuntu/logs/variadico.xhyve.ubuntu.error.log</string>
 	<key>StandardOutPath</key>
-	<string>/Users/jaime/Developer/git/xhyve-ubuntu/logs/variadico.xhyve.ubuntu.out.log</string>
+	<string>/Users/dndom/Downloads/xhyve-ubuntu/logs/variadico.xhyve.ubuntu.out.log</string>
 </dict>
 </plist>

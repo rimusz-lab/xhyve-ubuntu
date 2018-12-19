@@ -11,13 +11,13 @@ brew install xhyve
 ## Get booting kernel
 
 ```
-./prepare.sh ~/Downloads/ubuntu-16.04.1-server-amd64.iso
+sudo ./prepare.sh ~/Downloads/ubuntu-16.04.5-server-amd64.iso
 ```
 
 ## Create storage and boot to ISO
 
 ```
-sudo ./create.sh ~/Downloads/ubuntu-16.04.1-server-amd64.iso
+sudo ./create.sh ~/Downloads/ubuntu-16.04.5-server-amd64.iso
 ```
 
 After booting, install Ubuntu just like you normally would.
@@ -53,20 +53,30 @@ In the guest, run this.
 
 ```
 cd /target/boot
-cat initrd.img-4.4.0-31-generic | nc -l -p 1234
-cat vmlinuz-4.4.0-31-generic | nc -l -p 1234
+cat initrd.img-4.4.0-131-generic | nc -l -p 1234
+# run the host command and make sure the ip addres is right 
+cat vmlinuz-4.4.0-131-generic | nc -l -p 1234
+# run the host command and make sure the ip addres is right 
+ls -al
+# check the size is correct
 ```
 
 On the host, run this.
 
 ```
 cd boot/
-nc 192.168.64.8 1234 > initrd.img-4.4.0-31-generic
-nc 192.168.64.8 1234 > vmlinuz-4.4.0-31-generic
+nc 192.168.64.8 1234 > initrd.img-4.4.0-131-generic
+nc 192.168.64.8 1234 > vmlinuz-4.4.0-131-generic
+ls -al
+# check the size is correct
 cd ../
 ```
 
 Now, you can `exit` the shell and finish the installation.
+
+## Modify the start.sh
+
+If the file change e.g. under 16.04.1 it is 4.4.0.31 but 16.04.5 it is 4.4.0.131
 
 ## Start your new OS
 
@@ -107,6 +117,10 @@ jaime@mac:~$ sudo ./start.sh
 ```
 
 ## Launch Daemons
+
+The purpose is unclear but I think it may be because the author want to boot the ubuntu when Macos reboot
+Not sure it is what you want and hence if you are not sure, no need
+And if you need it you have to modify the variadico.xhyve.ubuntu.plist as it contains the directory where the file belong
 
 ```
 sudo chown root variadico.xhyve.ubuntu.plist
