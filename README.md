@@ -2,6 +2,11 @@
 
 Install an Ubuntu 16.04 VM on macOS using [xhyve].
 
+## Download ubuntu
+
+16.04.1 server work for author and
+16.04.5 works for me
+
 ## Install xhyve
 
 ```
@@ -32,7 +37,9 @@ Install the GRUB boot loader to the master boot record?
 
 Make sure you say, "yes".
 
-### Grab newer kernel from install
+## Very important DO NOT QUIT Insttalion
+
+###Grab newer kernel from install
 
 When you get to "Installation complete", select "Go Back". Then, "Execute a
 shell".
