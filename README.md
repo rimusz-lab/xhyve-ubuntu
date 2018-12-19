@@ -37,9 +37,9 @@ Install the GRUB boot loader to the master boot record?
 
 Make sure you say, "yes".
 
-## Very important DO NOT QUIT Insttalion
+## Very important DO NOT QUIT Installation
 
-###Grab newer kernel from install
+### Grab newer kernel from install
 
 When you get to "Installation complete", select "Go Back". Then, "Execute a
 shell".
