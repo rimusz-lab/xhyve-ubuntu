@@ -125,9 +125,9 @@ jaime@mac:~$ sudo ./start.sh
 
 ## Launch Daemons
 
-The purpose is unclear but I think it may be because the author want to boot the ubuntu when Macos reboot
-Not sure it is what you want and hence if you are not sure, no need
-And if you need it you have to modify the variadico.xhyve.ubuntu.plist as it contains the directory where the file belong
+The purpose is unclear.  But I think it may be because the author want to boot the ubuntu when MacOS reboot.  
+Not sure it is what you want and hence if you are not sure, there is no need.  
+And if you need it, you have to modify the file variadico.xhyve.ubuntu.plist as it contains the directory where the file belong
 
 ```
 sudo chown root variadico.xhyve.ubuntu.plist
