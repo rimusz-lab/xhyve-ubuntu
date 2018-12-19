@@ -83,7 +83,7 @@ Now, you can `exit` the shell and finish the installation.
 
 ## Modify the start.sh
 
-If the file change e.g. under 16.04.1 it is 4.4.0.31 but 16.04.5 it is 4.4.0.131
+If the file change e.g. under 16.04.1 it is 4.4.0.31 but 16.04.5, you have modify the start.sh to say it is now 4.4.0.131
 
 ## Start your new OS
 
