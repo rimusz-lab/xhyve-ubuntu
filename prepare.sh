@@ -8,10 +8,10 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
-dd if=/dev/zero of=tmp.iso bs=$[2*1024] count=1
-dd if="$1" bs=$[2*1024] skip=1 >> tmp.iso
+dd if=/dev/zero of=~/Download/tmp.iso bs=$[2*1024] count=1
+dd if="$1" bs=$[2*1024] skip=1 >> ~/Download/tmp.iso
 
-diskinfo=$(hdiutil attach tmp.iso)
+diskinfo=$(hdiutil attach ~/Download/tmp.iso)
 
 set +e
 mkdir -p boot
@@ -22,4 +22,4 @@ set -e
 
 disk=$(echo "$diskinfo" |  cut -d' ' -f1)
 hdiutil eject "$disk"
-rm tmp.iso
+rm ~/Download/tmp.iso

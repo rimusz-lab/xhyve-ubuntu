@@ -1,0 +1,89 @@
+Last login: Wed Dec 19 17:39:02 on ttys000
+TERM_PROGRAM=Apple_Terminal
+TERM=xterm-256color
+SHELL=/bin/bash
+TMPDIR=/var/folders/1f/9n7tl2sn5x91ypygv3t4hh440000gn/T/
+CONDA_SHLVL=1
+Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.Z8uKKAfIcX/Render
+CONDA_PROMPT_MODIFIER=
+TERM_PROGRAM_VERSION=404.1
+TERM_SESSION_ID=C31A67F2-09D7-4700-8071-1B10E81BF5A7
+USER=dndom
+CONDA_EXE=/Users/dndom/anaconda3/bin/conda
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.nGOUGVOEY0/Listeners
+PATH=/Developer/NVIDIA/CUDA-10.0/bin:/Users/dndom/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public
+CONDA_PREFIX=/Users/dndom/anaconda3
+PWD=/Users/dndom/Documents/GitHub/xhyve-ubuntu
+XPC_FLAGS=0x0
+XPC_SERVICE_NAME=0
+SHLVL=2
+HOME=/Users/dndom
+CONDA_PYTHON_EXE=/Users/dndom/anaconda3/bin/python
+LOGNAME=dndom
+LC_CTYPE=UTF-8
+CONDA_DEFAULT_ENV=base
+_=/usr/bin/printenv
+dndom-mbp2013:xhyve-ubuntu dndom$ ls
+LICENSE				prepare.sh
+README.md			start.sh
+create.sh			variadico.xhyve.ubuntu.plist
+headless.sh
+dndom-mbp2013:xhyve-ubuntu dndom$ ./prepare.sh  ~/Downloads/ubuntu-16.04.1-server-amd64.iso
+1+0 records in
+1+0 records out
+2048 bytes transferred in 0.000060 secs (34087042 bytes/sec)
+dd: /Users/dndom/Downloads/ubuntu-16.04.1-server-amd64.iso: No such file or directory
+dndom-mbp2013:xhyve-ubuntu dndom$ ./prepare.sh  ~/Downloads/ubuntu-16.04.1-server-amd64.iso
+1+0 records in
+1+0 records out
+2048 bytes transferred in 0.000058 secs (35349525 bytes/sec)
+dd: /Users/dndom/Downloads/ubuntu-16.04.1-server-amd64.iso: No such file or directory
+dndom-mbp2013:xhyve-ubuntu dndom$ ./prepare.sh  ~/Downloads/ubuntu-18.04.1-desktop-amd64.iso
+1+0 records in
+1+0 records out
+2048 bytes transferred in 0.000057 secs (35941149 bytes/sec)
+953783+0 records in
+953783+0 records out
+1953347584 bytes transferred in 13.730055 secs (142268010 bytes/sec)
+cp: /Volumes/Ubuntu 18.04.1 L/install/vmlinuz: No such file or directory
+cp: /Volumes/Ubuntu 18.04.1 L/install/initrd.gz: No such file or directory
+"disk4" unmounted.
+"disk4" ejected.
+dndom-mbp2013:xhyve-ubuntu dndom$ sudo ./create.sh ~/Downloads/ubuntu-18.04.1-desktop-amd64.iso
+Password:
+16+0 records in
+16+0 records out
+17179869184 bytes transferred in 60.012046 secs (286273678 bytes/sec)
+kexec: failed to load kernel boot/vmlinuz
+                                         ./create.sh: line 34: 21906 Abort trap: 6           xhyve -A -c "$cpus" -m "${memgb}G" -s 0,hostbridge -s 2,virtio-net -s "3,ahci-cd,$1" -s 4,virtio-blk,storage.img -s 31,lpc -l com1,stdio -f "kexec,boot/vmlinuz,boot/initrd.gz,earlyprintk=serial console=ttyS0"
+                                                             dndom-mbp2013:xhyve-ubuntu dndom$ LICENSE				prepare.sh
+                                                          README.md		start.sh
+       boot				storage.img
+                                                   create.sh			variadico.xhyve.ubuntu.plist
+                           headless.sh
+                                      dndom-mbp2013:xhyve-ubuntu dndom$ LICENSEprepare.sh
+         README.md			start.sh
+                                                boot				storage.img
+          create.sh			variadico.xhyve.ubuntu.plist
+                                                                    headless.sh
+                                                                               dndom-mbp2013:xhyve-ubuntu dndom$ LICENSE				prepare.sh
+  README.md			start.sh
+                                        boot				storage.img
+   create.sh			variadico.xhyve.ubuntu.plist
+                                                            headless.sh
+                                                                       dndom-mbp2013:xhyve-ubuntu dndom$ LICENSE				prepare.sh
+                                                                          README.md			start.sh
+                                boot				storage.img
+                                                                           create.sh			variadico.xhyve.ubuntu.plist
+                                                    headless.sh
+                                                               dndom-mbp2013:xhyve-ubuntu dndom$ dndom-mbp2013:xhyve-ubuntu dndom$ dndom-mbp2013:xhyve-ubuntu dndom$ dndom-mbp2013:xhyve-ubuntu dndom$ LICENSE				prepare.sh
+  README.md			start.sh
+                                        boot				storage.img
+   create.sh			variadico.xhyve.ubuntu.plist
+                                                            headless.sh
+                                                                       dndom-mbp2013:xhyve-ubuntu dndom$ LICENSE				prepare.sh
+                                                                          README.md			start.sh
+                                boot				storage.img
+                                                                           create.sh			variadico.xhyve.ubuntu.plist
+                                                    headless.sh
+                                                               dndom-mbp2013:xhyve-ubuntu dndom$ dndom-mbp2013:xhyve-ubuntu dndom$ dndom-mbp2013:xhyve-ubuntu dndom$ dndom-mbp2013:xhyve-ubuntu dndom$ dndom-mbp2013:xhyve-ubuntu dndom$ dndom-mbp2013:xhyve-ubuntu dndom$ dndom-mbp2013:xhyve-ubuntu dndom$ dndom-mbp2013:xhyve-ubuntu dndom$ 
